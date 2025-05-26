@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #f8fafc;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+.home1 {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 2rem;
+}
+.h-content {
+  flex: 1;
+  padding-right: 1rem;
+  width: 600px;
+}
+.h-content h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  line-height: 80px;
+}
+.photo {
+  flex: 1;
+  padding-left: 1rem;
+  text-align: center;
+ 
+}
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #f8f6f6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.card span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+
+.typewriter {
+  font-size: 35px;
+  font-weight: 700;
+  border-right: 2px solid #00ffcc;
+  white-space: normal;    /* <-- yaha change */
+  overflow: hidden;
+  max-width: 700px; 
+  height: 90px;      /* thoda wide rakho */
+  line-height: 1.3;       /* thoda spacing improve karne ke liye */
+  animation: blink 0.5s step-end infinite;
+}
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { }
+}
+.section3{
+  margin-top: 50px;
+  width: 500px;
+
+}
