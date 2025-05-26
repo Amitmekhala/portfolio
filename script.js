@@ -1,7 +1,7 @@
 const messages = [
   "I am a Web Designer & Marketing Automation Expert.",
   "I am a Landing Page & Funnel Specialist.",
-  "I am a Freelance Web Designer with 100+ landing pages delivered"
+  "I am  Web Designer with 100+ landing pages delivered"
 ];
 
 const element = document.getElementById("animated-text");

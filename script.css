@@ -115,7 +115,8 @@ h2 {
 }
 @keyframes blink {
   0%, 100% { border-color: transparent; }
-  50% { }
+  50% { 
+  }
 }
 
 
@@ -246,4 +247,6 @@ h2 {
   }
 }
 
-.audience-box:hover {
+.section2{
+  background-color: #FFD32D;
+}
