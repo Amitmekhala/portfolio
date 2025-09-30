@@ -576,7 +576,9 @@ h2 {
     flex-direction: column;
     gap: 20px;
   }
-
+.portfolio-featured-section{
+   margin: 30px 10px;
+}
   .portfolio-card {
     max-width: 100%;
   }
