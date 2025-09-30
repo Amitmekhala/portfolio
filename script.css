@@ -594,3 +594,121 @@ h2 {
 
   }
 }
+//
+.contactus{
+  text-align: center;
+}
+.contact-section {
+  background-color: #121e2b;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 20px;
+  margin: 0px 0;
+  word-wrap: break-word;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 40px 15px;
+    margin: 30px 15px;
+  }
+
+  .contact-section h2 {
+    font-size: 24px;
+  }
+
+  .contact-section p {
+    font-size: 16px;
+  }
+}
+
+//
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Social Icons */
+.icons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons a {
+  color: white;
+  background-color: black;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.icons a:hover {
+  transform: scale(1.1);
+  background-color: #222;
+}
+
+/* Résumé Button */
+.resume-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.resume-btn i {
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .icons {
+    gap: 15px;
+  }
+
+  .icons a {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .resume-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    width: 20%;
+  }
+
+  .resume-btn i {
+    font-size: 16px;
+  }
+}
