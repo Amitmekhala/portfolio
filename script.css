@@ -495,107 +495,7 @@ h2 {
   width: 100%;
 }
 
-.portfolio-featured-section {
-  padding: 40px 20px;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 30px;
-  background-color: #121212;
-  color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.portfolio-heading {
-  font-size: 2.9rem;
-  font-weight: 800;
-
-}
-
-.portfolio-heading::before {
-  content: "❄️ ";
-}
-
-.portfolio-subtitle {
-  color: #aaa;
-  margin-bottom: 30px;
-  font-size: 1rem;
-}
-
-.portfolio-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.portfolio-card {
-  background-color: #1e1e1e;
-  border-radius: 15px;
-  overflow: hidden;
-  flex: 1;
- 
-
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease;
-}
-
-.portfolio-card:hover {
-  transform: translateY(-5px);
-}
-
-.portfolio-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.portfolio-card-content {
-  padding: 20px;
-}
-
-.portfolio-link {
-  color: #aaa;
-  font-size: 0.85rem;
-  margin-bottom: 8px;
-}
-
-.portfolio-title {
-  font-size: 1.25rem;
-  margin-bottom: 8px;
-}
-
-.portfolio-description {
-  color: #ccc;
-  font-size: 0.95rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .portfolio-cards {
-    flex-direction: column;
-    gap: 20px;
-  }
-.portfolio-featured-section{
-   margin: 30px 10px;
-}
-  .portfolio-card {
-    max-width: 100%;
-  }
-
-  .portfolio-heading {
-    font-size: 2rem;
-  }
-
-  .portfolio-title {
-    font-size: 1.1rem;
-  }
-
-  .portfolio-description {
-    font-size: 0.9rem;
-
-  }
-}
 //
 .contactus{
   text-align: center;
@@ -721,5 +621,82 @@ h2 {
     margin: 40px;
     margin-left: 120px;
     
+  }
+}
+
+///
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #b0b0b0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.workflow-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.workflow-box {
+  background-color: #1c1f2e;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 100%;
+  padding: 20px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.workflow-box img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.workflow-box h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.workflow-box p {
+  color: #c5c5c5;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .workflow-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .workflow-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container {
+    padding: 20px 10px;
   }
 }
