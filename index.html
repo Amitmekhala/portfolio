@@ -229,6 +229,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .btn-dark{background:#fff;color:#1c2fb8}.btn-dark:hover{background:#ffe9e2}
 .btn-line{border-color:rgba(255,255,255,.5)}
 .about h2{background:linear-gradient(90deg,#141414,#2347e8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.also{margin-top:26px;color:var(--mute);font-size:.95rem;text-align:center}
+.also b{color:var(--ink);font-weight:600}
+.cgrid{grid-template-columns:repeat(4,1fr)}
+@media(max-width:1000px){.cgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.cgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -242,6 +247,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     <a href="#landing">Landing Pages</a>
     <a href="#automation">Automation</a>
     <a href="#experience">Experience</a>
+    <a href="resume.html">Resume</a>
   </div>
   <a href="#contact" class="btn btn-acc">Let's talk</a>
   <button class="burger" id="burger" aria-label="Menu">☰</button>
@@ -255,7 +261,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <p class="lead rv">For the last <b>4.5+ years</b> I've been helping D2C brands and coaches get more out of their websites: fixing product pages, building funnels, and setting up the <b>CRM automations</b> that follow up with leads so they don't have to.</p>
       <div class="cta-row rv">
         <a href="#shopify" class="btn btn-acc">See my work ↓</a>
-        <a href="https://wa.me/919055630935" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp me</a>
+        <a href="resume.html" class="btn btn-ghost">View resume</a>
       </div>
     </div>
     <div class="rv" style="position:relative">
@@ -323,22 +329,23 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   <div class="wrap">
     <div class="head">
       <div><span class="mono">E-commerce</span><h2 class="rv">Stores I've worked on</h2></div>
-      <p class="rv">Perfume, skincare, ghee, supplements and fashion brands. Some were full builds, some were one important section.</p>
+      <p class="rv">Live stores I've built or worked on, from perfume and fashion to ghee and supplements. Click any card to visit the store.</p>
     </div>
     <div class="brands">
-      <a class="brand rv" href="https://noiraa.com" target="_blank" rel="noopener"><span class="mono cat">Perfume · Shopify</span><h3>Noiraa Perfumes</h3><p>Redesigned the product page with fragrance notes, offers and a cleaner buy box.</p><span class="go">Visit store ↗</span></a>
-      <div class="brand rv"><span class="mono cat">Attar · Shopify</span><h3>Abaan Attar</h3><p>Built a custom theme with new home and product pages for an attar brand.</p><span class="go off">Shopify theme build</span></div>
-      <div class="brand rv"><span class="mono cat">Perfume · Shopify</span><h3>Accord 156</h3><p>Built the store: home page, banners and product pages.</p><span class="go off">Store build</span></div>
-      <div class="brand rv"><span class="mono cat">Perfume · Shopify</span><h3>Irazmo</h3><p>Added a bundle section so customers can pick multi-buy offers on the product page.</p><span class="go off">Bundle / offers</span></div>
-      <div class="brand rv"><span class="mono cat">Perfume · Shopify</span><h3>Attarang</h3><p>Reworked the offers and design of the product page.</p><span class="go off">Product page</span></div>
-      <div class="brand rv"><span class="mono cat">Skincare · Shopify</span><h3>Blask Beauty</h3><p>Designed a new cart drawer that suggests other products before checkout.</p><span class="go off">Cart drawer</span></div>
-      <a class="brand rv" href="https://gircowghee.org" target="_blank" rel="noopener"><span class="mono cat">A2 Ghee · Shopify</span><h3>Goseva</h3><p>Made custom product templates, including a themed page for their Gir cow ghee.</p><span class="go">Visit store ↗</span></a>
-      <div class="brand rv"><span class="mono cat">A2 Ghee · Shopify</span><h3>Farmer Platter</h3><p>Built a new theme, home page and product page for an A2 ghee brand.</p><span class="go off">New theme</span></div>
-      <div class="brand rv"><span class="mono cat">Supplements · Shopify</span><h3>The Seventh</h3><p>Built a product template that pulls its content from metafields, and designed the collection pages.</p><span class="go off">Templates &amp; metafields</span></div>
-      <div class="brand rv"><span class="mono cat">Streetwear · Shopify</span><h3>Urban Voyage</h3><p>Set up several product templates and a size chart for a streetwear label.</p><span class="go off">Product templates</span></div>
-      <div class="brand rv"><span class="mono cat">Menswear · Shopify</span><h3>Masculino Latino</h3><p>Improved the product page and added a size chart popup that works well on mobile.</p><span class="go off">Size chart popup</span></div>
-      <a class="brand rv" href="https://zyovel.com" target="_blank" rel="noopener"><span class="mono cat">Perfume · WooCommerce</span><h3>Zyovel</h3><p>Customized their WordPress and WooCommerce store.</p><span class="go">Visit store ↗</span></a>
+      <a class="brand rv" href="https://www.uffco.com/" target="_blank" rel="noopener"><span class="mono cat">Perfume · Shopify</span><h3>UFF Perfumes</h3><p>Shopify work for an Indian fragrance brand selling men's, women's and unisex perfumes.</p><span class="go">uffco.com ↗</span></a>
+      <a class="brand rv" href="https://theseventh.in/" target="_blank" rel="noopener"><span class="mono cat">Supplements · Shopify</span><h3>The Seventh</h3><p>Built a product template that pulls its content from metafields, and designed the collection pages.</p><span class="go">theseventh.in ↗</span></a>
+      <a class="brand rv" href="https://veerafarms.com/" target="_blank" rel="noopener"><span class="mono cat">Ghee &amp; pantry · Shopify</span><h3>Veera Farms</h3><p>Store for a food brand selling ghee, honey and other pantry staples.</p><span class="go">veerafarms.com ↗</span></a>
+      <a class="brand rv" href="https://gircowghee.org/" target="_blank" rel="noopener"><span class="mono cat">A2 ghee · Shopify</span><h3>Goseva</h3><p>Made custom product templates, including a themed page for their Gir cow ghee.</p><span class="go">gircowghee.org ↗</span></a>
+      <a class="brand rv" href="https://trillionlondon.co.uk/" target="_blank" rel="noopener"><span class="mono cat">Fashion · Shopify · UK</span><h3>Trillion London</h3><p>Store work for a London label selling silk scarves and printed kaftans.</p><span class="go">trillionlondon.co.uk ↗</span></a>
+      <a class="brand rv" href="https://masculinolatino.com/" target="_blank" rel="noopener"><span class="mono cat">Menswear · Shopify</span><h3>Masculino Latino</h3><p>Improved the product page and added a size chart popup that works well on mobile.</p><span class="go">masculinolatino.com ↗</span></a>
+      <a class="brand rv" href="https://myshaperfumes.com/" target="_blank" rel="noopener"><span class="mono cat">Perfume · Shopify</span><h3>MYSHA Perfumes</h3><p>Shopify work for a brand selling designer-inspired perfumes.</p><span class="go">myshaperfumes.com ↗</span></a>
+      <a class="brand rv" href="https://www.montavellece.com/" target="_blank" rel="noopener"><span class="mono cat">Luxury perfume · Shopify</span><h3>Montavellece</h3><p>Store work for a luxury fragrance brand.</p><span class="go">montavellece.com ↗</span></a>
+      <a class="brand rv" href="https://noiraa.com/" target="_blank" rel="noopener"><span class="mono cat">Perfume · Shopify</span><h3>Noiraa Perfumes</h3><p>Redesigned the product page with fragrance notes, offers and a cleaner buy box.</p><span class="go">noiraa.com ↗</span></a>
+      <a class="brand rv" href="https://store.guttify.co.in/" target="_blank" rel="noopener"><span class="mono cat">Gut health · Shopify</span><h3>Guttify</h3><p>Shopify store for a gut-health brand.</p><span class="go">store.guttify.co.in ↗</span></a>
+      <a class="brand rv" href="https://trynooky.in/" target="_blank" rel="noopener"><span class="mono cat">D2C · Shopify</span><h3>Try Nooky</h3><p>Built a festive Diwali theme for the store.</p><span class="go">trynooky.in ↗</span></a>
+      <a class="brand rv" href="https://zyovel.com/" target="_blank" rel="noopener"><span class="mono cat">Perfume · WooCommerce</span><h3>Zyovel</h3><p>Customized their WordPress and WooCommerce store.</p><span class="go">zyovel.com ↗</span></a>
     </div>
+    <p class="also rv">Also worked on <b>Abaan Attar</b>, <b>Accord 156</b>, <b>Irazmo</b>, <b>Attarang</b>, <b>Blask Beauty</b>, <b>Farmer Platter</b>, <b>Urban Voyage</b> and many more stores.</p>
   </div>
 </section>
 
@@ -423,6 +430,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <a class="ci rv" href="mailto:amitmekhalaudh@gmail.com"><span class="mono">Email</span><b>amitmekhalaudh@gmail.com</b></a>
       <a class="ci rv" href="tel:+919055630935"><span class="mono">Phone</span><b>+91 90556 30935</b></a>
       <a class="ci rv" href="https://www.linkedin.com/in/amit-mekhala-b76b2019b" target="_blank" rel="noopener"><span class="mono">LinkedIn</span><b>amit-mekhala ↗</b></a>
+      <a class="ci rv" href="resume.html"><span class="mono">Resume</span><b>View &amp; download ↗</b></a>
     </div>
   </div>
 </section>
@@ -433,6 +441,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     <div class="soc">
       <a href="https://www.linkedin.com/in/amit-mekhala-b76b2019b" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/Amitmekhala" target="_blank" rel="noopener">GitHub</a>
+      <a href="resume.html">Resume</a>
       <a href="#home">Back to top ↑</a>
     </div>
   </div>
