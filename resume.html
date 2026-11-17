@@ -6,153 +6,129 @@
 <title>Amit Kumar — Resume</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 @page{size:A4;margin:0}
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--ink:#141414;--mute:#555962;--line:#e4e2dc;--acc:#2347e8;--c2:#ff6b4a;--c3:#12a150;--c4:#7c4dff}
-body{font-family:Montserrat,Arial,sans-serif;color:var(--ink);background:#e9e8e3;font-size:9.5pt;line-height:1.46;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:Montserrat,Arial,sans-serif;color:#1d1f23;background:#efefec;font-size:9.6pt;line-height:1.55;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 a{color:inherit;text-decoration:none}
-.bar{max-width:210mm;margin:20px auto 12px;display:flex;justify-content:space-between;align-items:center;padding:0 4px}
+.bar{max-width:210mm;margin:20px auto 12px;display:flex;justify-content:space-between;align-items:center}
 .bar a,.bar button{font:600 13px Montserrat,sans-serif;padding:10px 18px;border-radius:8px;border:0;cursor:pointer}
-.bar a{color:var(--mute)}
-.bar button{background:var(--acc);color:#fff}
-.page{width:210mm;min-height:297mm;margin:0 auto 30px;background:#fff;box-shadow:0 20px 50px -25px rgba(0,0,0,.35);display:flex;flex-direction:column}
-header{padding:11mm 15mm 7mm;background:linear-gradient(120deg,#1c2fb8,#2347e8 55%,#7c4dff);color:#fff;position:relative}
-header h1{font-size:25pt;font-weight:800;letter-spacing:-.02em;line-height:1.1}
-header .role{font-size:10.5pt;font-weight:600;margin-top:4px;color:#dfe3ff}
-.contact{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:8.6pt;color:#fff}
-.contact span b{font-weight:700;color:#ffd9cf;margin-right:5px;font-size:7.4pt;letter-spacing:.08em;text-transform:uppercase}
-.body{display:grid;grid-template-columns:1fr 70mm;flex:1}
-.main{padding:7mm 9mm 6mm 15mm}
-.side{padding:7mm 13mm 6mm 8mm;background:#f6f6f2;border-left:1px solid var(--line)}
-h2{font-size:8.2pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin:0 0 7px;display:flex;align-items:center;gap:8px}
-h2::after{content:"";flex:1;height:1px;background:var(--line)}
-section+section{margin-top:10px}
-.summary{color:#33363c}
-.job{margin-bottom:8px}
-.job .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.job h3{font-size:10.4pt;font-weight:700}
-.job .when{font-size:8pt;color:var(--mute);white-space:nowrap;font-weight:500}
-.job .co{font-weight:600;font-size:9pt;margin-bottom:3px}
-.job:nth-of-type(1) .co{color:var(--acc)}.job:nth-of-type(2) .co{color:var(--c2)}.job:nth-of-type(3) .co{color:var(--c4)}
-ul{list-style:none}
-li{position:relative;padding-left:12px;color:#33363c;margin-bottom:2px}
-li::before{content:"";position:absolute;left:0;top:.62em;width:4px;height:4px;border-radius:50%;background:var(--acc)}
-.stores{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px}
-.stores div{font-size:8.6pt;color:#33363c}
-.stores b{font-weight:600;color:var(--ink)}
-.stores span{color:var(--mute)}
-.side h2{margin-bottom:6px}
-.chips{display:flex;flex-wrap:wrap;gap:4px}
-.chip{font-size:7.4pt;font-weight:500;padding:1px 6px;border-radius:4px;background:#fff;border:1px solid var(--line)}
-.grp{margin-bottom:7px}
-.grp h4{font-size:8.4pt;font-weight:700;margin-bottom:4px}
-.grp:nth-of-type(1) h4{color:var(--acc)}.grp:nth-of-type(2) h4{color:var(--c2)}.grp:nth-of-type(3) h4{color:var(--c3)}.grp:nth-of-type(4) h4{color:var(--c4)}
-.stat{display:flex;gap:8px;align-items:baseline;margin-bottom:3px}
-.stat b{font-size:13pt;font-weight:800;color:var(--acc);min-width:46px}
-.stat:nth-of-type(2) b{color:var(--c2)}.stat:nth-of-type(3) b{color:var(--c3)}
-.stat span{font-size:8.4pt;color:#33363c}
-.edu div{margin-bottom:4px;display:flex;justify-content:space-between;gap:6px}
-.edu b{font-size:8.6pt;font-weight:600}
-.edu span{font-size:8pt;color:var(--mute)}
-.port{margin-top:12px;padding:9px 10px;border-radius:8px;background:#fff;border:1px solid var(--line);font-size:8.2pt}
-.port b{display:block;color:var(--acc);font-size:8.6pt;word-break:break-all}
-@media screen and (max-width:820px){.page{width:100%;min-height:auto}.body{grid-template-columns:1fr}.side{border-left:0;border-top:1px solid var(--line)}.main,.side,header{padding:22px}}
-@media print{body{background:#fff}.bar{display:none}.page{margin:0;box-shadow:none;height:297mm}}
+.bar a{color:#5b5f66;padding-left:0}
+.bar button{background:#2347e8;color:#fff}
+.page{width:210mm;min-height:297mm;margin:0 auto 30px;background:#fff;padding:16mm 18mm;box-shadow:0 18px 40px -24px rgba(0,0,0,.3)}
+.head{display:flex;align-items:center;gap:20px;padding-bottom:16px;border-bottom:2px solid #2347e8}
+.head img{width:82px;height:82px;border-radius:50%;object-fit:cover}
+.head h1{font-size:22pt;font-weight:700;letter-spacing:-.01em;line-height:1.15}
+.head .role{font-size:10.5pt;font-weight:500;color:#2347e8;margin-top:2px}
+.contact{display:flex;flex-wrap:wrap;gap:3px 16px;margin-top:8px;font-size:8.6pt;color:#4a4e55}
+section{margin-top:15px}
+h2{font-size:9pt;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#1d1f23;margin-bottom:7px}
+p{color:#3a3d43}
+.job{margin-bottom:10px}
+.job:last-child{margin-bottom:0}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.job h3{font-size:10.2pt;font-weight:600}
+.job h3 span{font-weight:500;color:#2347e8}
+.date{font-size:8.6pt;color:#6b6f76;white-space:nowrap}
+ul{margin-top:3px;padding-left:15px;color:#3a3d43}
+li{margin-bottom:2px}
+li::marker{color:#9aa0a8}
+.skills div{display:grid;grid-template-columns:40mm 1fr;margin-bottom:3px}
+.skills b{font-weight:600}
+.skills span{color:#3a3d43}
+.stores{columns:2;column-gap:12mm;color:#3a3d43}
+.stores div{break-inside:avoid;margin-bottom:2px}
+.stores b{font-weight:600;color:#1d1f23}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12mm}
+@media screen and (max-width:820px){.page{width:100%;min-height:auto;padding:24px}.head{flex-direction:column;align-items:flex-start}.two{grid-template-columns:1fr;gap:0}.stores{columns:1}.skills div{grid-template-columns:1fr}.bar{padding:0 16px}}
+@media print{body{background:#fff}.bar{display:none}.page{margin:0;box-shadow:none}}
 </style>
 </head>
 <body>
 <div class="bar"><a href="./">← Back to portfolio</a><button onclick="window.print()">Download PDF</button></div>
 <div class="page">
-<header>
-  <h1>Amit Kumar</h1>
-  <div class="role">Senior Web Developer · Shopify &amp; Marketing Automation</div>
-  <div class="contact">
-    <span><b>Phone</b>+91 90556 30935</span>
-    <span><b>Email</b><a href="mailto:amitmekhalaudh@gmail.com">amitmekhalaudh@gmail.com</a></span>
-    <span><b>Portfolio</b><a href="https://amitmekhala.github.io/portfolio/">amitmekhala.github.io/portfolio</a></span>
-    <span><b>LinkedIn</b><a href="https://www.linkedin.com/in/amit-mekhala-b76b2019b">in/amit-mekhala</a></span>
-    <span><b>Location</b>Udhampur, J&amp;K, India</span>
+  <div class="head">
+    <img src="1772093790490.jpeg" alt="Amit Kumar">
+    <div>
+      <h1>Amit Kumar</h1>
+      <div class="role">Senior Web Developer · Shopify &amp; Marketing Automation</div>
+      <div class="contact">
+        <span>+91 90556 30935</span>
+        <a href="mailto:amitmekhalaudh@gmail.com">amitmekhalaudh@gmail.com</a>
+        <a href="https://amitmekhala.github.io/portfolio/">amitmekhala.github.io/portfolio</a>
+        <a href="https://www.linkedin.com/in/amit-mekhala-b76b2019b">linkedin.com/in/amit-mekhala</a>
+        <span>Udhampur, J&amp;K</span>
+      </div>
+    </div>
   </div>
-</header>
-<div class="body">
-  <div class="main">
+
+  <section>
+    <h2>Summary</h2>
+    <p>Web developer with 4.5+ years of experience in Shopify development, landing pages and marketing automation. I customize Shopify themes in Liquid (product pages, bundles, cart drawers, checkout), have built 200+ landing pages for workshops and ad campaigns, and set up CRM workflows in HubSpot, GoHighLevel, Zapier and Make.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="job">
+      <div class="row"><h3>Senior Web Developer <span>· Perfomity Media</span></h3><span class="date">Oct 2025 – Present</span></div>
+      <ul>
+        <li>Customize Shopify themes, sections and product pages in Liquid, HTML and CSS for D2C brands.</li>
+        <li>Build bundle offers, cart drawers with product suggestions, size charts and checkout improvements.</li>
+        <li>Build landing pages for paid ad campaigns and fix storefront issues without breaking existing apps.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="row"><h3>Automation Executive &amp; Web Designer <span>· Growthify Media</span></h3><span class="date">Sep 2024 – Oct 2025</span></div>
+      <ul>
+        <li>Built landing pages for workshops, webinars and masterclasses on WordPress, ClickFunnels and SwipePages.</li>
+        <li>Set up lead and CRM workflows in HubSpot, GoHighLevel, Zapier and Make, with email, SMS and WhatsApp reminders.</li>
+        <li>Integrated payment gateways, Calendly and Zoom with client websites.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="row"><h3>Web Designer <span>· iWizardz Business Solutions</span></h3><span class="date">Feb 2022 – Mar 2024</span></div>
+      <ul>
+        <li>Built business websites with WordPress, Elementor and Webflow.</li>
+        <li>Designed social media creatives and ad visuals for client campaigns.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <div><b>Development</b><span>Shopify Liquid, HTML, CSS, JavaScript, Metafields</span></div>
+    <div><b>Platforms</b><span>Shopify, WordPress, WooCommerce, Elementor, Webflow, ClickFunnels, SwipePages, TagMango</span></div>
+    <div><b>Automation &amp; CRM</b><span>GoHighLevel, HubSpot, Zapier, Make, n8n, Pabbly</span></div>
+    <div><b>Integrations</b><span>Payment gateways, Email &amp; SMS APIs, Calendly, Zoom</span></div>
+  </section>
+
+  <section>
+    <h2>Selected Stores</h2>
+    <div class="stores">
+      <div><b>UFF Perfumes</b> · uffco.com</div>
+      <div><b>The Seventh</b> · theseventh.in</div>
+      <div><b>Veera Farms</b> · veerafarms.com</div>
+      <div><b>Goseva</b> · gircowghee.org</div>
+      <div><b>Trillion London</b> · trillionlondon.co.uk</div>
+      <div><b>Masculino Latino</b> · masculinolatino.com</div>
+      <div><b>MYSHA Perfumes</b> · myshaperfumes.com</div>
+      <div><b>Montavellece</b> · montavellece.com</div>
+    </div>
+  </section>
+
+  <div class="two">
     <section>
-      <h2>Profile</h2>
-      <p class="summary">Web developer with 4.5+ years of experience building and improving Shopify stores, landing pages and marketing automation. I work on product pages, offer and bundle sections, cart drawers and checkout flows in Shopify Liquid, and I have built more than 200 landing pages for workshops, webinars and ad campaigns. I also set up the CRM workflows behind them in HubSpot, GoHighLevel, Zapier and Make.</p>
-    </section>
-    <section>
-      <h2>Experience</h2>
-      <div class="job">
-        <div class="top"><h3>Senior Web Developer</h3><span class="when">Oct 2025 – Present</span></div>
-        <div class="co">Perfomity Media</div>
-        <ul>
-          <li>Customize Shopify themes, sections and product pages in Liquid, HTML and CSS for D2C brands in perfume, food, apparel and wellness.</li>
-          <li>Build offer and bundle blocks, cart drawers with product suggestions, size charts, and Add to Cart / Buy Now and checkout improvements.</li>
-          <li>Build landing pages for paid ad campaigns and fix storefront bugs without breaking existing code or apps.</li>
-        </ul>
-      </div>
-      <div class="job">
-        <div class="top"><h3>Automation Executive &amp; Web Designer</h3><span class="when">Sep 2024 – Oct 2025</span></div>
-        <div class="co">Growthify Media</div>
-        <ul>
-          <li>Built landing pages for workshops, webinars and masterclasses on WordPress, ClickFunnels, SwipePages, FlexiFunnels and TagMango.</li>
-          <li>Set up lead and CRM workflows in HubSpot, GoHighLevel, Zapier, Make, n8n and Pabbly: tagging, payment triggers, and email, SMS and WhatsApp reminders.</li>
-          <li>Handled website updates and integrations with payment gateways, Calendly and Zoom.</li>
-        </ul>
-      </div>
-      <div class="job">
-        <div class="top"><h3>Web Designer</h3><span class="when">Feb 2022 – Mar 2024</span></div>
-        <div class="co">iWizardz Business Solutions</div>
-        <ul>
-          <li>Built business websites with WordPress, Elementor and Webflow.</li>
-          <li>Designed social media creatives and ad visuals for client campaigns.</li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <h2>Selected stores</h2>
-      <div class="stores">
-        <div><b>UFF Perfumes</b> <span>uffco.com</span></div>
-        <div><b>The Seventh</b> <span>theseventh.in</span></div>
-        <div><b>Veera Farms</b> <span>veerafarms.com</span></div>
-        <div><b>Goseva</b> <span>gircowghee.org</span></div>
-        <div><b>Trillion London</b> <span>trillionlondon.co.uk</span></div>
-        <div><b>Masculino Latino</b> <span>masculinolatino.com</span></div>
-        <div><b>MYSHA Perfumes</b> <span>myshaperfumes.com</span></div>
-        <div><b>Montavellece</b> <span>montavellece.com</span></div>
-        <div><b>Noiraa Perfumes</b> <span>noiraa.com</span></div>
-        <div><b>Guttify</b> <span>store.guttify.co.in</span></div>
-      </div>
-    </section>
-  </div>
-  <aside class="side">
-    <section>
-      <h2>At a glance</h2>
-      <div class="stat"><b>4.5+</b><span>years in web development</span></div>
-      <div class="stat"><b>200+</b><span>landing pages built</span></div>
-      <div class="stat"><b>15+</b><span>online stores worked on</span></div>
-    </section>
-    <section>
-      <h2>Skills</h2>
-      <div class="grp"><h4>Code</h4><div class="chips"><span class="chip">Shopify Liquid</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Metafields</span></div></div>
-      <div class="grp"><h4>Platforms</h4><div class="chips"><span class="chip">Shopify</span><span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">Elementor</span><span class="chip">Webflow</span><span class="chip">ClickFunnels</span><span class="chip">SwipePages</span><span class="chip">FlexiFunnels</span><span class="chip">TagMango</span></div></div>
-      <div class="grp"><h4>Automation &amp; CRM</h4><div class="chips"><span class="chip">GoHighLevel</span><span class="chip">HubSpot</span><span class="chip">Zapier</span><span class="chip">Make</span><span class="chip">n8n</span><span class="chip">Pabbly</span></div></div>
-      <div class="grp"><h4>Integrations</h4><div class="chips"><span class="chip">Payment gateways</span><span class="chip">Email &amp; SMS APIs</span><span class="chip">Calendly</span><span class="chip">Zoom</span><span class="chip">Figma</span></div></div>
-    </section>
-    <section class="edu">
       <h2>Education</h2>
-      <div><b>Graduation</b><span>Ongoing</span></div>
-      <div><b>12th, JKBOSE</b><span>2014</span></div>
-      <div><b>10th, JKBOSE</b><span>2012</span></div>
+      <div class="row"><span>Graduation</span><span class="date">Ongoing</span></div>
+      <div class="row"><span>12th, JKBOSE</span><span class="date">2014</span></div>
+      <div class="row"><span>10th, JKBOSE</span><span class="date">2012</span></div>
     </section>
     <section>
       <h2>Languages</h2>
-      <p style="color:#33363c">English, Hindi</p>
+      <p>English, Hindi</p>
     </section>
-  </aside>
-</div>
+  </div>
 </div>
 </body>
 </html>
