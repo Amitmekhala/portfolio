@@ -204,6 +204,31 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
 .about-text p{color:#3c3f45;font-size:1.05rem;margin-bottom:18px;max-width:680px}
 .about-text .sig{font-weight:700;font-style:italic;color:var(--ink);font-size:1.1rem}
 @media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:20px}}
+/* colour */
+:root{--c1:#2347e8;--c2:#ff6b4a;--c3:#12a150;--c4:#7c4dff;--c5:#f5a524;--c6:#e8478b}
+.hero{background:radial-gradient(520px 420px at 82% 22%,rgba(124,77,255,.16),transparent 65%),radial-gradient(480px 380px at 92% 78%,rgba(255,107,74,.16),transparent 65%),radial-gradient(420px 320px at 8% 10%,rgba(35,71,232,.08),transparent 70%)}
+.hero h1 .o{background:linear-gradient(90deg,#2347e8,#7c4dff 55%,#e8478b);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat:nth-child(1) h3 em{color:var(--c1)}.stat:nth-child(2) h3 em{color:var(--c2)}.stat:nth-child(3) h3 em{color:var(--c3)}
+.stat:nth-child(1) h3{color:var(--c1)}.stat:nth-child(2) h3{color:var(--c2)}.stat:nth-child(3) h3{color:var(--c3)}.stat:nth-child(4) h3{color:var(--c4)}
+.svc{border-top:4px solid var(--k,var(--c1))}
+.svc:nth-child(1){--k:var(--c1);--ks:#e8ecfd}.svc:nth-child(2){--k:var(--c2);--ks:#ffede8}.svc:nth-child(3){--k:var(--c3);--ks:#e3f6eb}.svc:nth-child(4){--k:var(--c4);--ks:#efe9ff}
+.svc .ico{background:var(--ks);color:var(--k)}
+#shopify{background:linear-gradient(180deg,#eef1ff,#f6f3ff)!important}
+.brand{border-top:3px solid var(--k)}
+.brand:nth-child(6n+1){--k:var(--c1)}.brand:nth-child(6n+2){--k:var(--c2)}.brand:nth-child(6n+3){--k:var(--c3)}.brand:nth-child(6n+4){--k:var(--c4)}.brand:nth-child(6n+5){--k:var(--c5)}.brand:nth-child(6n){--k:var(--c6)}
+.brand .cat,.brand .go{color:var(--k)}
+.brand:hover{border-color:var(--k)}
+.lp:nth-child(3n+1) .go{color:var(--c1)}.lp:nth-child(3n+2) .go{color:var(--c2)}.lp:nth-child(3n) .go{color:var(--c4)}
+#automation{background:linear-gradient(180deg,#fff3ee,#fff8ef)!important}
+.flow .n:nth-child(4n+1){background:#e8ecfd;border-color:#cdd6fb}.flow .n:nth-child(4n+3){background:#ffede8;border-color:#ffd3c7}
+.wf:nth-child(1) .mono{color:var(--c3)}.wf:nth-child(2) .mono{color:var(--c4)}.wf:nth-child(3) .mono{color:var(--c2)}.wf:nth-child(4) .mono{color:var(--c1)}
+.job:nth-child(2) .co{color:var(--c2)}.job:nth-child(3) .co{color:var(--c4)}
+.tg{border-top:3px solid var(--k)}.tg:nth-child(1){--k:var(--c1)}.tg:nth-child(2){--k:var(--c2)}.tg:nth-child(3){--k:var(--c3)}.tg:nth-child(4){--k:var(--c4)}
+.cbox{background:linear-gradient(135deg,#1c2fb8,#2347e8 45%,#7c4dff)}
+.cbox .mono{color:#ffd9cf}.cbox p{color:#dfe3ff}
+.btn-dark{background:#fff;color:#1c2fb8}.btn-dark:hover{background:#ffe9e2}
+.btn-line{border-color:rgba(255,255,255,.5)}
+.about h2{background:linear-gradient(90deg,#141414,#2347e8);-webkit-background-clip:text;background-clip:text;color:transparent}
 </style>
 </head>
 <body>
@@ -230,7 +255,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <p class="lead rv">For the last <b>4.5+ years</b> I've been helping D2C brands and coaches get more out of their websites: fixing product pages, building funnels, and setting up the <b>CRM automations</b> that follow up with leads so they don't have to.</p>
       <div class="cta-row rv">
         <a href="#shopify" class="btn btn-acc">See my work ↓</a>
-        <a href="https://wa.me/917889783761" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp me</a>
+        <a href="https://wa.me/919055630935" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp me</a>
       </div>
     </div>
     <div class="rv" style="position:relative">
@@ -391,388 +416,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <p>Tell me a little about your store or funnel and what isn't working. WhatsApp is the fastest way to reach me, but email works too.</p>
       <div class="cta-row">
         <a class="btn btn-dark" href="mailto:amitmekhalaudh@gmail.com">Email me</a>
-        <a class="btn btn-line" href="https://wa.me/917889783761" target="_blank" rel="noopener">WhatsApp ↗</a>
+        <a class="btn btn-line" href="https://wa.me/919055630935" target="_blank" rel="noopener">WhatsApp ↗</a>
       </div>
     </div>
     <div class="cgrid">
       <a class="ci rv" href="mailto:amitmekhalaudh@gmail.com"><span class="mono">Email</span><b>amitmekhalaudh@gmail.com</b></a>
-      <a class="ci rv" href="tel:+917889783761"><span class="mono">Phone</span><b>+91 78897 83761</b></a>
-      <a class="ci rv" href="https://www.linkedin.com/in/amit-mekhala-b76b2019b" target="_blank" rel="noopener"><span class="mono">LinkedIn</span><b>amit-mekhala ↗</b></a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <span>© <span id="yr">2026</span> Amit Kumar (Mekhala) · Udhampur, J&amp;K, India</span>
-    <div class="soc">
-      <a href="https://www.linkedin.com/in/amit-mekhala-b76b2019b" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/Amitmekhala" target="_blank" rel="noopener">GitHub</a>
-      <a href="#home">Back to top ↑</a>
-    </div>
-  </div>
-</footer>
-
-<div class="lb" id="lb"><img alt=""></div>
-
-<script>
-document.getElementById('yr').textContent=new Date().getFullYear();
-const links=document.getElementById('links');
-document.getElementById('burger').onclick=()=>links.classList.toggle('open');
-links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%4)*70+'ms';io.observe(el)});
-const lb=document.getElementById('lb'),lbi=lb.querySelector('img');
-document.querySelectorAll('.wf .shot img').forEach(img=>img.parentElement.onclick=()=>{lbi.src=img.src;lb.classList.add('on')});
-lb.onclick=()=>lb.classList.remove('on');
-document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('on')});
-</script>
-</body>
-</html>
-.links a:hover{color:var(--ink)}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:10px;font-weight:600;font-size:.92rem;transition:.2s;cursor:pointer;border:0}
-.btn-acc{background:var(--acc);color:#fff}
-.btn-acc:hover{background:#1a37c0;transform:translateY(-1px)}
-.btn-ghost{border:1px solid #cfccc4;color:var(--ink);background:#fff}
-.btn-ghost:hover{border-color:var(--ink)}
-.burger{display:none;background:none;border:0;color:var(--ink);font-size:1.4rem;cursor:pointer;padding:4px 8px}
-
-/* hero */
-.hero{min-height:92vh;display:flex;align-items:center;padding:130px 0 70px;position:relative;overflow:hidden}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.9fr);gap:64px;align-items:center}
-.avail{display:inline-flex;align-items:center;gap:10px;padding:7px 14px;border:1px solid var(--line);border-radius:999px;color:var(--mute);margin-bottom:26px;background:#fff}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
-.hero h1{font-size:clamp(2.3rem,4.6vw,4.2rem);font-weight:800}
-.hero h1 .o{color:var(--acc)}
-.hero p.lead{font-size:clamp(1rem,1.3vw,1.12rem);color:var(--mute);max-width:580px;margin:24px 0 34px}
-.hero p.lead b{color:var(--ink);font-weight:600}
-.cta-row{display:flex;gap:12px;flex-wrap:wrap}
-.photo{position:relative;aspect-ratio:4/5;border-radius:20px;overflow:hidden;background:var(--bg2);box-shadow:0 30px 60px -30px rgba(20,20,20,.35)}
-.photo img{width:100%;height:100%;object-fit:cover}
-.photo .tag{position:absolute;left:14px;bottom:14px;right:14px;padding:14px 16px;border-radius:12px;background:rgba(255,255,255,.94);display:flex;justify-content:space-between;align-items:center}
-.photo .tag b{font-size:.98rem}
-.photo .tag small{color:var(--mute);display:block;font-size:.78rem}
-.float{position:absolute;padding:10px 14px;border-radius:10px;background:#fff;border:1px solid var(--line);font-size:.8rem;font-weight:600;box-shadow:0 14px 30px -18px rgba(0,0,0,.3)}
-.f1{top:24px;left:-24px}.f2{top:46%;right:-20px}
-
-/* stats */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.stat{padding:32px 24px;border-right:1px solid var(--line)}
-.stat:last-child{border-right:0}
-.stat h3{font-size:clamp(2rem,3.4vw,2.8rem);font-weight:800}
-.stat h3 em{color:var(--acc);font-style:normal}
-.stat p{color:var(--mute);font-size:.88rem}
-
-/* marquee */
-.marquee{overflow:hidden;padding:22px 0;border-bottom:1px solid var(--line);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
-.track{display:flex;gap:40px;width:max-content;animation:scroll 45s linear infinite}
-.track span{font-weight:600;font-size:1.05rem;color:#8a8c92;white-space:nowrap;display:flex;align-items:center;gap:40px}
-.track span::after{content:"";width:5px;height:5px;border-radius:50%;background:#c4c2bb}
-@keyframes scroll{to{transform:translateX(-50%)}}
-
-/* sections */
-section{padding:100px 0}
-.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:50px;flex-wrap:wrap}
-.head .mono{color:var(--acc);margin-bottom:12px;display:block}
-.head h2{font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:800;max-width:700px}
-.head p{color:var(--mute);max-width:380px;font-size:.95rem}
-
-/* services */
-.services{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.svc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:32px;transition:.25s}
-.svc:hover{border-color:#c9c6be;box-shadow:0 20px 40px -28px rgba(0,0,0,.25)}
-.svc .num{color:#9a9ca2;font-size:.78rem;font-weight:600}
-.svc .ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:var(--acc-soft);color:var(--acc);margin:16px 0 20px}
-.svc .ico svg{width:22px;height:22px}
-.svc h3{font-size:1.35rem;margin-bottom:10px}
-.svc p{color:var(--mute);margin-bottom:20px;font-size:.94rem}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{font-size:.75rem;font-weight:500;padding:5px 12px;border-radius:6px;background:var(--bg);border:1px solid var(--line);color:#3c3f45}
-
-/* shopify brands */
-.brands{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.brand{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:8px;transition:.25s;min-height:180px}
-.brand:hover{border-color:var(--acc);box-shadow:0 18px 36px -26px rgba(35,71,232,.45)}
-.brand .cat{color:var(--acc)}
-.brand h3{font-size:1.15rem}
-.brand p{color:var(--mute);font-size:.88rem;flex:1}
-.brand .go{font-size:.82rem;font-weight:600;color:var(--acc)}
-.brand .go.off{color:#9a9ca2;font-weight:500}
-
-/* landing pages */
-.lps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.lp{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
-.lp:hover{transform:translateY(-4px);box-shadow:0 24px 44px -28px rgba(0,0,0,.3)}
-.lp .shot{aspect-ratio:16/11;overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--line)}
-.lp .shot img{width:100%;height:100%;object-fit:cover;object-position:top;transition:object-position 3s ease}
-.lp:hover .shot img{object-position:bottom}
-.lp .body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
-.lp h3{font-size:1.08rem}
-.lp p{color:var(--mute);font-size:.88rem;flex:1}
-.lp .go{font-weight:600;font-size:.86rem;color:var(--acc)}
-.more{text-align:center;margin-top:40px}
-
-/* automation */
-.auto{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.wf{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
-.wf .shot{aspect-ratio:16/9;background:#fff;overflow:hidden;cursor:zoom-in;border-bottom:1px solid var(--line)}
-.wf .shot img{width:100%;height:100%;object-fit:cover;object-position:top left;transition:transform .5s}
-.wf:hover .shot img{transform:scale(1.03)}
-.wf .body{padding:22px 24px 26px}
-.wf .mono{color:var(--acc)}
-.wf h3{font-size:1.15rem;margin:8px 0}
-.wf p{color:var(--mute);font-size:.9rem}
-.flow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 44px;padding:20px 24px;border:1px solid var(--line);border-radius:var(--r);background:var(--card)}
-.flow .n{padding:8px 14px;border-radius:8px;background:var(--bg);border:1px solid var(--line);font-size:.82rem;font-weight:600}
-.flow .a{color:var(--acc);font-weight:700}
-
-/* experience */
-.xp{border-top:1px solid var(--line)}
-.job{display:grid;grid-template-columns:200px 1fr 1.3fr;gap:30px;padding:34px 0;border-bottom:1px solid var(--line)}
-.job .when{color:var(--mute)}
-.job .now{color:var(--ok)}
-.job h3{font-size:1.25rem}
-.job .co{color:var(--acc);font-weight:600;margin-top:6px;font-size:.95rem}
-.job ul{list-style:none;color:var(--mute);display:grid;gap:8px;font-size:.93rem}
-.job li{padding-left:18px;position:relative}
-.job li::before{content:"";position:absolute;left:0;top:.7em;width:6px;height:6px;border-radius:50%;background:var(--acc)}
-
-/* tools */
-.tools{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.tg{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
-.tg h4{font-size:1rem;margin-bottom:14px}
-.tg h4 span{display:none}
-
-/* contact */
-.contact{padding:100px 0 50px}
-.cbox{border-radius:24px;padding:clamp(36px,6vw,72px);background:#141414;color:#fff;position:relative;overflow:hidden}
-.cbox .mono{color:#9fb0ff}
-.cbox h2{font-size:clamp(2rem,5vw,3.6rem);font-weight:800;max-width:760px;margin-top:10px}
-.cbox p{font-size:1.02rem;max-width:520px;margin:18px 0 32px;color:#b9bbc0}
-.btn-dark{background:var(--acc);color:#fff}
-.btn-dark:hover{background:#3a5cff}
-.btn-line{border:1px solid #4a4c52;color:#fff}
-.btn-line:hover{border-color:#fff}
-.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
-.ci{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;transition:.2s;display:block}
-.ci:hover{border-color:var(--acc)}
-.ci .mono{color:var(--mute)}
-.ci b{display:block;font-size:.98rem;font-weight:600;margin-top:6px;word-break:break-all}
-footer{padding:26px 0 40px;color:var(--mute);font-size:.85rem}
-footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:24px}
-.soc{display:flex;gap:18px}
-.soc a:hover{color:var(--acc)}
-
-/* lightbox */
-.lb{position:fixed;inset:0;background:rgba(10,10,10,.88);z-index:200;display:none;place-items:center;padding:4vw;cursor:zoom-out}
-.lb.on{display:grid}
-.lb img{max-height:90vh;border-radius:10px}
-
-/* reveal */
-.rv{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}
-.rv.in{opacity:1;transform:none}
-
-/* responsive */
-@media(max-width:1100px){.hero-grid{grid-template-columns:1fr}.photo{max-width:420px;aspect-ratio:1/1}}
-@media(max-width:1000px){
-  .brands,.lps{grid-template-columns:repeat(2,1fr)}
-  .tools{grid-template-columns:repeat(2,1fr)}
-  .job{grid-template-columns:1fr;gap:10px}
-  .stats{grid-template-columns:repeat(2,1fr)}
-  .stat:nth-child(2){border-right:0}
-  .stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
-}
-@media(max-width:760px){
-  .links{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px}
-  .links.open{display:flex}
-  .burger{display:block}
-  nav .btn{display:none}
-  .services,.auto,.brands,.lps,.cgrid,.tools{grid-template-columns:1fr}
-  section{padding:72px 0}
-  .f1{left:8px}.f2{right:8px}
-}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
-</style>
-</head>
-<body>
-
-<nav><div class="in">
-  <a href="#home" class="logo">Amit<span>.</span></a>
-  <div class="links" id="links">
-    <a href="#services">Services</a>
-    <a href="#shopify">Shopify Work</a>
-    <a href="#landing">Landing Pages</a>
-    <a href="#automation">Automation</a>
-    <a href="#experience">Experience</a>
-  </div>
-  <a href="#contact" class="btn btn-acc">Let's talk</a>
-  <button class="burger" id="burger" aria-label="Menu">☰</button>
-</div></nav>
-
-<header class="hero" id="home">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="avail mono rv"><span class="dot"></span> Available for freelance & full-time</div>
-      <h1 class="rv">I build <span class="o">Shopify stores</span>, pages that convert &amp; automations that never sleep.</h1>
-      <p class="lead rv">Hi, I'm <b>Amit Kumar</b> — Senior Web Developer &amp; Automation Executive with <b>4.5+ years</b> of experience in Shopify Liquid customization, high-converting landing pages and marketing automation with <b>HubSpot, GoHighLevel, Zapier, Make &amp; n8n</b>.</p>
-      <div class="cta-row rv">
-        <a href="#shopify" class="btn btn-acc">See my work ↓</a>
-        <a href="https://wa.me/917889783761" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp me</a>
-      </div>
-    </div>
-    <div class="rv" style="position:relative">
-      <div class="photo">
-        <img src="amitt.jpg" alt="Amit Kumar" onerror="this.style.display='none'">
-        <div class="tag"><div><b>Amit Kumar</b><small>Udhampur, J&amp;K · Remote worldwide</small></div><span class="mono" style="color:var(--acc)">Since 2022</span></div>
-      </div>
-      <div class="float f1">Shopify · Liquid</div>
-      <div class="float f2">Zapier · Make · GoHighLevel</div>
-    </div>
-  </div>
-</header>
-
-<div class="wrap">
-  <div class="stats">
-    <div class="stat rv"><h3>4.5<em>+</em></h3><p>Years building for the web</p></div>
-    <div class="stat rv"><h3>200<em>+</em></h3><p>Landing pages built &amp; optimized</p></div>
-    <div class="stat rv"><h3>15<em>+</em></h3><p>Shopify &amp; e-com stores customized</p></div>
-    <div class="stat rv"><h3>24<em>×</em>7</h3><p>CRM &amp; lead workflows running on autopilot</p></div>
-  </div>
-</div>
-
-<div class="marquee">
-  <div class="track">
-    <span>Shopify Liquid</span><span>HTML · CSS · JavaScript</span><span>WordPress</span><span>Elementor</span><span>Webflow</span><span>GoHighLevel</span><span>HubSpot</span><span>Zapier</span><span>Make</span><span>n8n</span><span>Pabbly</span><span>ClickFunnels</span><span>SwipePages</span><span>TagMango</span><span>Figma</span>
-    <span>Shopify Liquid</span><span>HTML · CSS · JavaScript</span><span>WordPress</span><span>Elementor</span><span>Webflow</span><span>GoHighLevel</span><span>HubSpot</span><span>Zapier</span><span>Make</span><span>n8n</span><span>Pabbly</span><span>ClickFunnels</span><span>SwipePages</span><span>TagMango</span><span>Figma</span>
-  </div>
-</div>
-
-<section id="services">
-  <div class="wrap">
-    <div class="head">
-      <div><span class="mono">01 — What I do</span><h2 class="rv">Design, code &amp; automation — under one roof.</h2></div>
-      <p class="rv">From a pixel-perfect product page to the CRM workflow that follows up with every lead — I handle the full journey.</p>
-    </div>
-    <div class="services">
-      <div class="svc rv"><span class="num">/01</span><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div><h3>Shopify Development</h3>
-        <p>Custom theme sections, premium product pages, offer &amp; bundle blocks, cart drawers with upsells, Add to Cart / Buy Now flows and checkout integrations — built in Liquid without breaking existing apps.</p>
-        <div class="chips"><span class="chip">Liquid</span><span class="chip">Theme sections</span><span class="chip">Cart drawer</span><span class="chip">Metafields</span><span class="chip">Size charts</span></div></div>
-      <div class="svc rv"><span class="num">/02</span><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div><h3>Landing Pages &amp; Funnels</h3>
-        <p>200+ high-converting pages for workshops, webinars, masterclasses and performance campaigns — clean UX, strong CTAs and fast load times.</p>
-        <div class="chips"><span class="chip">WordPress</span><span class="chip">ClickFunnels</span><span class="chip">SwipePages</span><span class="chip">FlexiFunnels</span><span class="chip">TagMango</span></div></div>
-      <div class="svc rv"><span class="num">/03</span><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Marketing Automation &amp; CRM</h3>
-        <p>Lead capture, tagging, SMS/email/WhatsApp reminders, payment &amp; webinar triggers — workflows that save hours of manual work and cut no-shows.</p>
-        <div class="chips"><span class="chip">GoHighLevel</span><span class="chip">HubSpot</span><span class="chip">Zapier</span><span class="chip">Make</span><span class="chip">n8n</span><span class="chip">Pabbly</span></div></div>
-      <div class="svc rv"><span class="num">/04</span><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div><h3>Websites &amp; Integrations</h3>
-        <p>Responsive business websites on WordPress, Elementor &amp; Webflow, plus API integrations — payment gateways, email/SMS APIs, Calendly &amp; Zoom scheduling.</p>
-        <div class="chips"><span class="chip">Elementor</span><span class="chip">Webflow</span><span class="chip">WooCommerce</span><span class="chip">Payment APIs</span><span class="chip">UI/UX</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section id="shopify" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="wrap">
-    <div class="head">
-      <div><span class="mono">02 — Selected e-commerce work</span><h2 class="rv">Brands whose stores I've built &amp; customized.</h2></div>
-      <p class="rv">Perfume, skincare, ghee, supplements and fashion — product pages and storefront sections designed to sell.</p>
-    </div>
-    <div class="brands">
-      <a class="brand rv" href="https://noiraa.com" target="_blank" rel="noopener"><span class="mono cat">Perfume · Shopify</span><h3>Noiraa Perfumes</h3><p>Luxury fragrance product page with a modern 2026-27 look — notes, offers and a premium buying experience.</p><span class="go">Visit store ↗</span></a>
-      <div class="brand rv"><span class="mono cat">Attar · Shopify</span><h3>Abaan Attar</h3><p>Premium custom theme for an attar brand — elegant home and product pages inspired by top luxury perfume houses.</p><span class="go off">Shopify theme build</span></div>
-      <div class="brand rv"><span class="mono cat">Perfume · Shopify</span><h3>Accord 156</h3><p>Full store build — home page, banners and conversion-focused product pages.</p><span class="go off">Store build</span></div>
-      <div class="brand rv"><span class="mono cat">Perfume · Shopify</span><h3>Irazmo</h3><p>Offer &amp; bundle section for the product page — multi-buy pricing that lifts average order value.</p><span class="go off">Bundle / offers</span></div>
-      <div class="brand rv"><span class="mono cat">Perfume · Shopify</span><h3>Attarang</h3><p>Product-page offers and design refresh for a cleaner, more persuasive buy box.</p><span class="go off">Product page</span></div>
-      <div class="brand rv"><span class="mono cat">Skincare · Shopify</span><h3>Blask Beauty</h3><p>Premium cart drawer with smart product suggestions and upsells.</p><span class="go off">Cart drawer</span></div>
-      <a class="brand rv" href="https://gircowghee.org" target="_blank" rel="noopener"><span class="mono cat">A2 Ghee · Shopify</span><h3>Goseva</h3><p>Custom product templates, including a themed Gir cow ghee product page.</p><span class="go">Visit store ↗</span></a>
-      <div class="brand rv"><span class="mono cat">A2 Ghee · Shopify</span><h3>Farmer Platter</h3><p>Brand-new theme — home and product page for an A2 Gir cow ghee brand.</p><span class="go off">New theme</span></div>
-      <div class="brand rv"><span class="mono cat">Supplements · Shopify</span><h3>The Seventh</h3><p>Custom product template powered by metafields, plus collection page design.</p><span class="go off">Templates &amp; metafields</span></div>
-      <div class="brand rv"><span class="mono cat">Streetwear · Shopify</span><h3>Urban Voyage</h3><p>Multiple product templates and size-chart experience for an apparel label.</p><span class="go off">Product templates</span></div>
-      <div class="brand rv"><span class="mono cat">Menswear · Shopify</span><h3>Masculino Latino</h3><p>Product page upgrades including a clean, mobile-friendly size chart popup.</p><span class="go off">Size chart popup</span></div>
-      <a class="brand rv" href="https://zyovel.com" target="_blank" rel="noopener"><span class="mono cat">Perfume · WooCommerce</span><h3>Zyovel</h3><p>WordPress / WooCommerce store customization for a perfume brand.</p><span class="go">Visit store ↗</span></a>
-    </div>
-  </div>
-</section>
-
-<section id="landing">
-  <div class="wrap">
-    <div class="head">
-      <div><span class="mono">03 — Landing pages</span><h2 class="rv">Pages built to turn visitors into leads.</h2></div>
-      <p class="rv">A few live examples from 200+ pages — hover a card to scroll the page preview.</p>
-    </div>
-    <div class="lps">
-      <a class="lp rv" href="https://workshop.ideatoipo.in/" target="_blank" rel="noopener"><div class="shot"><img src="lp2.png" alt="SME IPO Workshop landing page" loading="lazy"></div><div class="body"><span class="mono" style="color:var(--mute)">Workshop</span><h3>Suresh Mansharamani — SME IPO</h3><p>Clean UX, lead capture and clear CTAs built to drive workshop sign-ups.</p><span class="go">View live ↗</span></div></a>
-      <a class="lp rv" href="https://link.thekingofconfidence.com/speak-with-confidence" target="_blank" rel="noopener"><div class="shot"><img src="lp1.png" alt="Speak With Confidence landing page" loading="lazy"></div><div class="body"><span class="mono" style="color:var(--mute)">Workshop</span><h3>Bishal Sarkar — Speak With Confidence</h3><p>Conversion-focused page for a communication workshop with strong calls-to-action.</p><span class="go">View live ↗</span></div></a>
-      <a class="lp rv" href="https://link.growthifymedia.com/get-onboarded" target="_blank" rel="noopener"><div class="shot"><img src="lp3.png" alt="Growthify Media funnel" loading="lazy"></div><div class="body"><span class="mono" style="color:var(--mute)">Sales funnel</span><h3>Growthify Media</h3><p>High-impact funnel showcasing a full "Revenue Growth System" for coaches &amp; consultants.</p><span class="go">View live ↗</span></div></a>
-      <a class="lp rv" href="https://link.thekingofconfidence.com/masterclass" target="_blank" rel="noopener"><div class="shot"><img src="lp4.png" alt="Masterclass landing page" loading="lazy"></div><div class="body"><span class="mono" style="color:var(--mute)">Masterclass</span><h3>The King of Confidence — Masterclass</h3><p>Sleek, value-first page that guides visitors to enroll.</p><span class="go">View live ↗</span></div></a>
-      <a class="lp rv" href="https://link.professionalrealestateclub.com/webinar" target="_blank" rel="noopener"><div class="shot"><img src="lp5.png" alt="Real estate webinar page" loading="lazy"></div><div class="body"><span class="mono" style="color:var(--mute)">Webinar</span><h3>Amaresh Jha — Real Estate</h3><p>Persuasive webinar registration page for real-estate professionals.</p><span class="go">View live ↗</span></div></a>
-      <a class="lp rv" href="https://grow.thinkngrowrichacademy.com/usfm" target="_blank" rel="noopener"><div class="shot"><img src="lp6.png" alt="Think and Grow Rich Academy" loading="lazy"></div><div class="body"><span class="mono" style="color:var(--mute)">Program</span><h3>Think &amp; Grow Rich Academy</h3><p>Trust-building enrollment page for the academy's flagship program.</p><span class="go">View live ↗</span></div></a>
-    </div>
-    <div class="more rv"><a class="btn btn-ghost" href="https://docs.google.com/spreadsheets/d/1KquQ8TIydS5zkmxH9CC1Wq2jlOaq3TEIYf3ku7-Yai4/edit?usp=sharing" target="_blank" rel="noopener">See all 200+ pages ↗</a></div>
-  </div>
-</section>
-
-<section id="automation" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="wrap">
-    <div class="head">
-      <div><span class="mono">04 — Automation</span><h2 class="rv">Workflows that run the business while you sleep.</h2></div>
-      <p class="rv">Real workflows from client work — click any screenshot to zoom in.</p>
-    </div>
-    <div class="flow rv">
-      <span class="n">Lead fills form</span><span class="a">→</span><span class="n">Tag in CRM</span><span class="a">→</span><span class="n">Payment check</span><span class="a">→</span><span class="n">Email + SMS / WhatsApp</span><span class="a">→</span><span class="n">Webinar reminders</span><span class="a">→</span><span class="n">Track &amp; follow up</span>
-    </div>
-    <div class="auto">
-      <div class="wf rv"><div class="shot"><img src="workflow5.jpg" alt="GoHighLevel workflow" loading="lazy"></div><div class="body"><span class="mono">GoHighLevel</span><h3>Workshop registration engine</h3><p>Automated SMS &amp; email reminders with delivery, open and click tracking — built to boost attendance and reduce no-shows.</p></div></div>
-      <div class="wf rv"><div class="shot"><img src="workflow.png" alt="Scheduled automation workflow" loading="lazy"></div><div class="body"><span class="mono">Scheduled API flow</span><h3>Trigger → API → Logic → Discord</h3><p>Schedule trigger fires an HTTP request, branches with If conditions, edits fields, creates records, runs custom JavaScript and posts updates to Discord.</p></div></div>
-      <div class="wf rv"><div class="shot"><img src="workflow2.png" alt="n8n workflow" loading="lazy"></div><div class="body"><span class="mono">n8n</span><h3>Internal real-time alerts</h3><p>Email notifications driven by data variables and conditional triggers based on user activity and system events.</p></div></div>
-      <div class="wf rv"><div class="shot"><img src="workflow4.png" alt="Pabbly Connect workflows" loading="lazy"></div><div class="body"><span class="mono">Pabbly Connect</span><h3>Lead capture &amp; follow-ups</h3><p>Active workflows for Growthify Media automating lead capture, sales-page responses and client follow-ups.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<section id="experience">
-  <div class="wrap">
-    <div class="head">
-      <div><span class="mono">05 — Experience</span><h2 class="rv">Where I've been shipping.</h2></div>
-    </div>
-    <div class="xp">
-      <div class="job rv"><div class="mono when now">Oct 2025 — Present</div><div><h3>Senior Web Developer</h3><div class="co">Perfomity Media</div></div>
-        <ul><li>Customize Shopify themes, storefront sections, product pages and responsive layouts with Liquid, HTML &amp; CSS.</li><li>Improve product-page UX, cart drawer behaviour, Add to Cart / Buy Now flows, offers and checkout integrations.</li><li>Build and optimize landing pages for performance marketing campaigns.</li><li>Troubleshoot storefront issues while keeping existing classes &amp; integrations intact.</li></ul></div>
-      <div class="job rv"><div class="mono when">Sep 2024 — Oct 2025</div><div><h3>Automation Executive &amp; Web Designer</h3><div class="co">Growthify Media</div></div>
-        <ul><li>Created and optimized landing pages for marketing campaigns.</li><li>Built lead and CRM workflows in HubSpot, GoHighLevel, Zapier &amp; Make.</li><li>Supported website updates, integrations and conversion-focused improvements.</li></ul></div>
-      <div class="job rv"><div class="mono when">Feb 2022 — Mar 2024</div><div><h3>Web Designer</h3><div class="co">iWizardz Business Solutions</div></div>
-        <ul><li>Built responsive websites with WordPress, Elementor &amp; Webflow.</li><li>Applied UI/UX best practices to improve usability and presentation.</li></ul></div>
-    </div>
-  </div>
-</section>
-
-<section id="tools" style="padding-top:0">
-  <div class="wrap">
-    <div class="head">
-      <div><span class="mono">06 — Toolkit</span><h2 class="rv">My everyday stack.</h2></div>
-    </div>
-    <div class="tools">
-      <div class="tg rv"><h4>Code <span>{ }</span></h4><div class="chips"><span class="chip">Shopify Liquid</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">JSON / Metafields</span></div></div>
-      <div class="tg rv"><h4>Builders <span>▦</span></h4><div class="chips"><span class="chip">Shopify</span><span class="chip">WordPress</span><span class="chip">Elementor</span><span class="chip">Webflow</span><span class="chip">WooCommerce</span><span class="chip">ClickFunnels</span><span class="chip">SwipePages</span><span class="chip">FlexiFunnels</span><span class="chip">TagMango</span><span class="chip">Systeme.io</span></div></div>
-      <div class="tg rv"><h4>Automation <span>⚡</span></h4><div class="chips"><span class="chip">GoHighLevel</span><span class="chip">HubSpot</span><span class="chip">Zapier</span><span class="chip">Make</span><span class="chip">n8n</span><span class="chip">Pabbly</span><span class="chip">Kit</span></div></div>
-      <div class="tg rv"><h4>Integrations <span>⇄</span></h4><div class="chips"><span class="chip">Payment gateways</span><span class="chip">SMS API</span><span class="chip">Email API</span><span class="chip">Calendly</span><span class="chip">Zoom</span><span class="chip">Figma</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="wrap">
-    <div class="cbox rv">
-      <span class="mono">Got a project?</span>
-      <h2>Let's build something that sells.</h2>
-      <p>Need a Shopify store fixed, a landing page that converts or a CRM that follows up on its own? Drop a message — I usually reply within a few hours.</p>
-      <div class="cta-row">
-        <a class="btn btn-dark" href="mailto:amitmekhalaudh@gmail.com">Email me</a>
-        <a class="btn btn-line" href="https://wa.me/917889783761" target="_blank" rel="noopener">WhatsApp ↗</a>
-      </div>
-    </div>
-    <div class="cgrid">
-      <a class="ci rv" href="mailto:amitmekhalaudh@gmail.com"><span class="mono">Email</span><b>amitmekhalaudh@gmail.com</b></a>
-      <a class="ci rv" href="tel:+917889783761"><span class="mono">Phone</span><b>+91 78897 83761</b></a>
+      <a class="ci rv" href="tel:+919055630935"><span class="mono">Phone</span><b>+91 90556 30935</b></a>
       <a class="ci rv" href="https://www.linkedin.com/in/amit-mekhala-b76b2019b" target="_blank" rel="noopener"><span class="mono">LinkedIn</span><b>amit-mekhala ↗</b></a>
     </div>
   </div>
